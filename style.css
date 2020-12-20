@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*  The two classes listed directly below are both used for styling the business name "Horiseon",
+which displays on the top right of the webpage. You can locate it on html page under its parent
+<section class="header">  */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header section {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*  The two classes listed below belong to the navigational links on the top right of the webpage and can
+ be found within its parent <section class="header">.  */
+.header section ul {
+    list-style-type: none;
+}
+
+.header section ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*  The <a> elements are located within each <li> element, inside of its parent <section class="header">  */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*  The two classes located directly below, are the styling for the main image on the webpage, which 
+displays under the heading, and above the main content. It is located within it's own <section>. */ 
+.hero {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%; 
+    object-fit: contain;
+}
+
+p {
+    font-size: 16px;
+}
+
+/*  The class directly below is the main content of the webpage, containing three individual sections. The 
+two classes directly below it, are used to style the three sections within the parent 
+<section class="content">.  */
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*  The three classes below make up the first section of the main content of the webpage (located within 
+the parent <section class="content">). Each section consists of an <img>, <h2>, and a <p>.  */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*  The three classes below make up the middle section of the main content of the webpage (located within 
+the parent <section class="content">). Each section consists of an <img>, <h2>, and a <p>.  */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*  The three classes below make up the last section of the main content of the webpage (located within 
+the parent <section class="content">). Each section consists of an <img>, <h2>, and a <p>.  */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*  The class directly below is the parent <section class="benefits">. There are three sections within it,
+each containing an <h3> and <img>. I have grouped them together below. */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*  The class listed below is <section class="benefit-lead">. The class directly underneath it is 
+specifically for its <h3>.  */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*  The class listed below is <section class="benefit-brand">. The class directly underneath it is 
+specifically for its <h3>  */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*  The class listed below is <section class="benefit-cost">. The class directly underneath it is 
+specifically for its <h3>.  */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*  The class below is for all images located within the parent <section class="benefits">.  */
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
